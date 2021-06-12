@@ -1,3 +1,8 @@
-birth_year = int(input("enter your birth year"))
-age  =  2021 - birth_year
-print(f"your age is {age}")
+username = str(input("enter your username: "))
+password = input("enter your password: ")
+
+password = len(password)
+hidden_password = '*' * password
+
+
+print(f'your username is {username} and password is {hidden_password}and your password lenght is {password}')
